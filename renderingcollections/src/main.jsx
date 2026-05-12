@@ -4,18 +4,19 @@ import App from './App.jsx'
 
 
 const notes = [
-  {id:1,
+  {id:'1',
     content:'HTML is easy',
     important:true
   },
   {
-    id:2,
+    id:'2',
     content:'browser can execute only javascript',
     important:false
   },
   {
-    id:3,
-    content:'GET and Post are the most import methods of HTTP protocol'
+    id:'3',
+    content:'GET and Post are the most import methods of HTTP protocol',
+    important:true
   }
 ]
 
