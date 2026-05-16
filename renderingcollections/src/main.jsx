@@ -1,6 +1,8 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import App from './App.jsx'
+import axios from 'axios'
+import './index.css'
 
 
 const notes = [
@@ -20,9 +22,8 @@ const notes = [
   }
 ]
 
+  createRoot(document.getElementById('root')).render(<App ></App>)
 
-createRoot(document.getElementById('root')).render(
-  <StrictMode>
-    <App notes={notes} />
-  </StrictMode>,
-)
+
+
+
